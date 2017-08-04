@@ -11,7 +11,7 @@ body {
 }
 
 .head {
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .heading-text {
@@ -27,15 +27,17 @@ body {
 }
 
 .about-me-text {
-
+  font-size: 17px;
+  letter-spacing: .5px;
+  line-height: 20px;
 }
 
 .about-me-section {
-  height: 62vh;
+  min-height: 62vh;
 }
 
 .skills {
-  height: 80vh;
+  min-height: : 80vh;
 }
 
 .divider {
@@ -44,10 +46,6 @@ body {
   border: 0;
   border-top: 5px solid #0f0f0f;
   padding-bottom: 30px;
-}
-
-.devicon-ruby-plain-wordmark .colored {
-   max-width: 2em;
 }
 
 .icons {
@@ -60,6 +58,27 @@ body {
 
 .me {
 }
+
+.footer {
+  background-color: #222;
+}
+
+.contact-text {
+  padding: 0 30px 0 30px;
+  color: #fff;
+  font-size: 10em;
+  font-weight: 900;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+  text-decoration: line-through;  
+}
+
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
