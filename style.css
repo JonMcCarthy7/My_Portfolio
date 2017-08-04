@@ -35,7 +35,7 @@ body {
 }
 
 .skills {
-  height: 70vh;
+  height: 80vh;
 }
 
 .divider {
@@ -44,6 +44,18 @@ body {
   border: 0;
   border-top: 5px solid #0f0f0f;
   padding-bottom: 30px;
+}
+
+.devicon-ruby-plain-wordmark .colored {
+   max-width: 2em;
+}
+
+.icons {
+  font-size: 10rem
+}
+
+.icon-padding {
+  padding: 30px;
 }
 
 .me {
