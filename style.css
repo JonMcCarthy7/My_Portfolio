@@ -61,6 +61,7 @@ body {
 
 .footer {
   background-color: #222;
+  min-height: 50vh;
 }
 
 .contact-text {
@@ -76,7 +77,7 @@ a:link {
 
 a:hover {
   color: #888;
-  text-decoration: line-through;  
+  text-decoration: line-through;
 }
 
 
