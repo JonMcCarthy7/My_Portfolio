@@ -5,19 +5,23 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.nav-text{
-  color: #efefef;
-  text-decoration: none;
+.nav-link {
+  font-size: 35px;
+  color: #efefef!important;
 }
 
-.nav-text:hover{
-  text-decoration: none;
-  color: #888;
+.nav-link:hover {
+  color: #888!important;
 }
 
-.navbar {
-  border-radius: 0px;
-  background-color: #222;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .head {
@@ -38,9 +42,9 @@ body {
 }
 
 .about-me-text {
-  font-size: 17px;
+  font-size: 22px;
   letter-spacing: .5px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .about-me-section {
@@ -83,9 +87,8 @@ body {
 }
 
 .contact-text {
-  padding: 0 30px 0 30px;
   color: #fff;
-  font-size: 10em;
+  font-size: 75px;
   font-weight: 900;
 }
 
@@ -96,7 +99,6 @@ body {
 }
 
 .arrow {
-  padding-left: 6.46em;
   color: #fff;
   text-decoration: none;
 }
@@ -260,15 +262,11 @@ body {
   text-decoration: none!important;
 }
 
-.navbar-header {
-  padding-left: 10em;
-}
-
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
@@ -360,4 +358,31 @@ body {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+.blink {
+    -webkit-animation: 2s linear infinite condemed_blink_effect; // for android
+    animation: 2s linear infinite condemed_blink_effect;
+}
+@-webkit-keyframes condemed_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemed_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
 }

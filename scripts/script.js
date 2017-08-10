@@ -1,4 +1,50 @@
 $(document).ready(function(){
+
+function myAge() {
+  var d = new Date();
+  var n = d.getFullYear() - 1993;
+  document.getElementById('age').innerHTML = n;
+  return n;
+}
+
+    myAge();
+
+    $('#typeIt').typeIt({
+      breakLines: false,
+      speed: 200,
+      autoStart: false,
+      startDelay: 3000
+    })
+    .tiType('Full-Stack Developer')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Coffee Connoisseur')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Musician')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Food Lover')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Traveler')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Thrill Seeker')
+    .tiPause(2000)
+    .tiDelete()
+    .tiType('Full-Stack Developer');
+
+
+    $('#example2').typeIt({
+     strings: ["This is a great string.", "But here is a better one."],
+     speed: 50,
+     breakLines: false,
+     autoStart: false
+});
+
+
+
   // Select all links with hashes
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
