@@ -1,8 +1,53 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   background-color: #efefef;
   padding-top: 70px;
   color: #0f0f0f;
   font-family: 'Ubuntu', sans-serif;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body .heading-text{
+        font-size: 3.6em;
+    }
+    body .contact-text {
+      font-size: 3.8em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    body p {
+      font-size: 2em;
+    }
+    body .contact-text {
+      font-size: 7em;
+    }
+    body .heading-text{
+        font-size: 6.5em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
 }
 
 .nav-link {
@@ -29,7 +74,6 @@ body {
 }
 
 .heading-text {
-  font-size: 76px!important;
   padding-bottom: 10px;
 }
 
@@ -42,9 +86,8 @@ body {
 }
 
 .about-me-text {
-  font-size: 22px;
   letter-spacing: .5px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .about-me-section {
@@ -88,7 +131,6 @@ body {
 
 .contact-text {
   color: #fff;
-  font-size: 75px;
   font-weight: 900;
 }
 
