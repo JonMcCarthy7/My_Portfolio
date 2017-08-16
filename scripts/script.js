@@ -20,7 +20,7 @@ function myAge() {
     .tiDelete()
     .tiType('Coffee Connoisseur')
     .tiPause(2000)
-    .tiDelete() 
+    .tiDelete()
     .tiType('Musician')
     .tiPause(2000)
     .tiDelete()

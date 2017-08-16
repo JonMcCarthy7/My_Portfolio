@@ -13,10 +13,13 @@ body {
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     body .heading-text{
-        font-size: 3.6em;
+        font-size: 3.5em;
     }
     body .contact-text {
       font-size: 3.8em;
+    }
+    body .about-me-text {
+      line-height: 20px;
     }
 }
 
@@ -87,7 +90,7 @@ body {
 
 .about-me-text {
   letter-spacing: .5px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .about-me-section {
