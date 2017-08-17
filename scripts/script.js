@@ -11,9 +11,9 @@ function myAge() {
 
     $('#typeIt').typeIt({
       breakLines: false,
-      speed: 200,
+      speed: 50,
       autoStart: false,
-      startDelay: 3000
+      startDelay: 1000
     })
     .tiType('Full-Stack Developer')
     .tiPause(2000)
