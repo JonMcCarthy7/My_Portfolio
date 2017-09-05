@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+ $('#trans').on('click', function () {
+   $(this).fadeOut(function () {
+     $(this).text(($(this).text() ==  "Herzlich willkommen auf meiner Website,") ? "Welcome to my website," : "Herzlich willkommen auf meiner Website,").fadeIn();
+   })
+ });
+
 function myAge() {
   var d = new Date();
   var n = d.getFullYear() - 1993;
