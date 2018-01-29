@@ -9,9 +9,9 @@ $(document).ready(function(){
   function myAge(jsYear, jsMonth, jsDate) {
     var d = new Date();
     var n = d.getFullYear() - jsYear;
-    if (d.getMonth() >= jsMonth && d.getDate() >= jsDate) {
-      n+= 1;
-    };
+    if (d.getMonth() <= jsMonth && d.getDate() >= jsDate) {
+      n-= 1;
+    }
     return n;
   }
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
   .tiType('Traveler')
   .tiPause(2000)
   .tiDelete()
-  .tiType('Adrenaline Junkie')
+  .tiType('Gamer')
   .tiPause(2000)
   .tiDelete()
   .tiType('Full-Stack Developer');
