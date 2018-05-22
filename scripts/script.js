@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(this).fadeOut(function() {
       $(this)
         .text(
-          $(this).text() == "Herzlich willkommen auf meiner portfolio,"
+          $(this).text() === "Herzlich willkommen auf meiner portfolio,"
             ? "Welcome to my portfolio,"
             : "Herzlich willkommen auf meiner portfolio,"
         )
