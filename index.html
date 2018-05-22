@@ -1,225 +1,294 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon McCarthy</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jon McCarthy</title>
 
 
 
-       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-       <!-- Font -->
-      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Font -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-       <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-       <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-       <!-- Typeit Text -->
-      <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+  <!-- Typeit Text -->
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 
-      <link rel="icon" href="img/favjm.png">
-      <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="icon" href="img/favjm.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-  </head>
-  <body>
-    <div id="back-to-top"></div>
+</head>
 
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse fadeInDown">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a class="nav-link" href="#about-me">About Me</a></li>
-            <li><a class="nav-link" href="#skills">Skills</a></li>
-            <li><a class="nav-link" href="#work">My Work</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body>
+  <div id="back-to-top"></div>
 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse fadeInDown">
     <div class="container">
-      <div class="row head">
-        <div class=".col-xs-6 .col-xs-offset-3 text-center">
-          <div class="jumbotron text-center">
-            <h1 class="heading-text fadeIn">Jon McCarthy</h1> <br>
-            <h1 class="arrow fadeIn2"><span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"></h1> <br>
-            <h1 id="typeIt" class="heading-text fadeIn2"></h1>
-            <!-- <span class="console glyphicon glyphicon-console blink heading-text" aria-hidden="true"></span> -->
-          </div>
-            <div id="about-me"></div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#work">My Work</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row head">
+      <div class=".col-xs-6 .col-xs-offset-3 text-center">
+        <div class="jumbotron text-center">
+          <h1 class="heading-text fadeIn">Jon McCarthy</h1>
+          <br>
+          <h1 class="arrow fadeIn2">
+            <span class="glyphicon glyphicon-resize-vertical" aria-hidden="true">
+          </h1>
+          <br>
+          <h1 id="typeIt" class="heading-text fadeIn2"></h1>
+          <!-- <span class="console glyphicon glyphicon-console blink heading-text" aria-hidden="true"></span> -->
         </div>
+        <div id="about-me"></div>
+      </div>
+    </div>
+
+
+
+    <!-- About Me Section -->
+
+
+    <div class="row about-me-section">
+
+      <div class="row">
+        <div class="divider text-center"></div>
       </div>
 
-
-
-      <!-- About Me Section -->
-
-
-      <div class="row about-me-section">
-
+      <div class="col-md-6 about-me-text text-center">
         <div class="row">
-          <div class="divider text-center"></div>
+          <p>
+            <span id="trans">Herzlich willkommen auf meiner portfolio,</span> My name is Jon McCarthy. I am a
+            <span id="age"> 25 </span> year-old Web Developer && Drummer, chillin in the desert of Phoenix Arizona.</p>
         </div>
+        <div class="row">
+          <p>If I'm not out with friends, sharing a meal with family, slinging coffee, or playing music, I'm creating cool stuff!
+          </p>
+        </div>
+        <div class="row">
+          <!-- <p>I would love to find myself at a company, or on a team, that I could invest in and keep expanding my knowledge, all while making a positive impact through coding.</p> -->
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img class="me img-responsive center-block" src="img/me.jpg" alt="Jon-McCarthy">
+      </div>
+    </div>
 
-        <div class="col-md-6 about-me-text text-center">
-          <div class="row">
-            <p><span id="trans">Herzlich willkommen auf meiner portfolio,</span> My name is Jon McCarthy. I am a <span id="age"> </span> year-old Web Developer && Drummer, chillin in the desert of Phoenix Arizona.</p>
+    <div id="skills"></div>
+
+    <div class="row">
+      <div class="divider text-center"></div>
+    </div>
+
+    <!-- Dev Skills Section -->
+
+    <div class="row text-center">
+      <h1 class="heading-text">-devSkills-</h1>
+    </div>
+
+    <div class="row skills text-center">
+      <div class="row">
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-html5-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-css3-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-javascript-plain colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-jquery-plain-wordmark colored icons"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-ruby-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-rails-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-bootstrap-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i>
+            <i class="devicon-sass-original colored icons"></i>
+          </i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-mysql-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-postgresql-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-git-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-github-plain-wordmark colored icons"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-heroku-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-rubymine-plain-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-atom-original-wordmark colored icons"></i>
+        </div>
+        <div class="col-xs-6 col-md-3 icon-padding">
+          <i class="devicon-apple-original colored icons"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="work"></div>
+
+
+    <div class="row">
+      <div class="divider text-center"></div>
+    </div>
+
+    <!-- My Work Section -->
+
+    <div class="row text-center">
+      <h1 class="heading-text">
+        <a class="github-icon" href="https://github.com/JonMcCarthy7" target="_blank">
+          <i class="devicon-github-plain colored icons hvr-grow"></i>
+        </a>
+        << some_projects </h1>
+    </div>
+    <div class="row work">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3>Book/Movie Review App</h3>
           </div>
-          <div class="row">
-            <p>If I'm not out with friends, sharing a meal with family, slinging coffee, or playing music, I'm creating cool stuff!
-            </p>
-          </div>
-          <div class="row">
-            <!-- <p>I would love to find myself at a company, or on a team, that I could invest in and keep expanding my knowledge, all while making a positive impact through coding.</p> -->
+          <div class="text-center">
+            <a href="https://github.com/JonMcCarthy7/Book-Review" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/Review.png" alt="Book/Movie Review">
+            </a>
           </div>
         </div>
         <div class="col-md-6">
-          <img class="me img-responsive center-block" src="img/me.JPG" alt="Jon-McCarthy">
+          <div class="text-center">
+            <h3>Ecommerce App</h3>
+          </div>
+          <div class="text-center project">
+            <a href="https://github.com/JonMcCarthy7/Ecomm2017" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/ecomm.png" alt="Ecommerce App">
+            </a>
+          </div>
         </div>
       </div>
-
-      <div id="skills"></div>
-
       <div class="row">
-        <div class="divider text-center"></div>
-      </div>
-
-      <!-- Dev Skills Section -->
-
-      <div class="row text-center">
-        <h1 class="heading-text">-devSkills-</h1>
-      </div>
-
-      <div class="row skills text-center">
-        <div class="row">
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-html5-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-css3-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-javascript-plain colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-jquery-plain-wordmark colored icons"></i></div>
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3>Blog App</h3>
+          </div>
+          <div class="text-center project">
+            <a href="https://github.com/JonMcCarthy7/Blog-App" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/blog.png" alt="Blog App">
+            </a>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-ruby-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-rails-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-bootstrap-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i><i class="devicon-sass-original colored icons"></i></i></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-mysql-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-postgresql-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-git-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-github-plain-wordmark colored icons"></i></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-heroku-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-rubymine-plain-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-atom-original-wordmark colored icons"></i></div>
-          <div class="col-xs-6 col-md-3 icon-padding"><i class="devicon-apple-original colored icons"></i></div>
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3>Yelp App</h3>
+          </div>
+          <div class="text-center project">
+            <a href="https://github.com/JonMcCarthy7/Yelpers" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/yelp.png" alt="Yelp App">
+            </a>
+          </div>
         </div>
       </div>
-
-      <div id="work"></div>
-
-
       <div class="row">
-        <div class="divider text-center"></div>
-      </div>
-
-      <!-- My Work Section -->
-
-      <div class="row text-center">
-        <h1 class="heading-text"><a class="github-icon" href="https://github.com/JonMcCarthy7" target="_blank"><i class="devicon-github-plain colored icons hvr-grow"></i></a> << my_work </h1>
-      </div>
-      <div class="row work">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Book/Movie Review App</h3>
-            </div>
-            <div class="text-center">
-              <a href="https://github.com/JonMcCarthy7/Book-Review" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/Review.png" alt="Book/Movie Review"></a>
-            </div>
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3>Travel App</h3>
           </div>
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Ecommerce App</h3>
-            </div>
-            <div class="text-center project">
-              <a href="https://github.com/JonMcCarthy7/Ecomm2017" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/ecomm.png" alt="Ecommerce App"></a>
-            </div>
+          <div class="text-center project">
+            <a href="https://github.com/JonMcCarthy7/travel_app" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/travel.png" alt="Travel App">
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Blog App</h3>
-            </div>
-            <div class="text-center project">
-              <a href="https://github.com/JonMcCarthy7/Blog-App" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/blog.png" alt="Blog App"></a>
-            </div>
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3>Weather App (JavaScript)</h3>
           </div>
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Yelp App</h3>
-            </div>
-            <div class="text-center project">
-              <a href="https://github.com/JonMcCarthy7/Yelpers" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/yelp.png" alt="Yelp App"></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Travel App</h3>
-            </div>
-            <div class="text-center project">
-              <a href="https://github.com/JonMcCarthy7/travel_app" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/travel.png" alt="Travel App"></a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="text-center">
-              <h3>Weather App (JavaScript)</h3>
-            </div>
-            <div class="text-center project">
-              <a href="https://jonmccarthy7.github.io/weatherApp/" target="_blank"><img class="hvr-float-shadow img-responsive" src="img/weather.png" alt="Weather App"></a>
-            </div>
+          <div class="text-center project">
+            <a href="https://jonmccarthy7.github.io/weatherApp/" target="_blank">
+              <img class="hvr-float-shadow img-responsive" src="img/weather.png" alt="Weather App">
+            </a>
           </div>
         </div>
       </div>
-
     </div>
 
-    <!-- Contact Section -->
+  </div>
 
-    <div id="contact"></div>
+  <!-- Contact Section -->
 
-      <div class="row footer">
-        <div class="container">
-          <h1 class="contact-text"> you can contact me via
-            <a class="contact-link" href="mailto:jtmcc93@gmail.com">mail</a>,
-            <a class="contact-link" href="https://www.linkedin.com/in/jonathan-mccarthy" target="_blank">linkedin</a>,
-            <a class="contact-link" href="https://www.instagram.com/jonmccarthy7/" target="_blank">Instagram</a>,
-            <a class="contact-link" href="https://www.facebook.com/jon.mccarthy.12" target="_blank">facebook</a>, or
-            <a class="contact-link" href="https://twitter.com/Jon_McCarthy7" target="_blank">twitter</a>
-            <a href="#back-to-top"><span class="glyphicon glyphicon-chevron-up icons pull-right arrow hvr-bob" aria-hidden="true"></span></a>
-          </h1>
-        </div>
-      </div>
+  <div id="contact"></div>
 
-    <script src="scripts/script.js" charset="utf-8"></script>
+  <div class="row footer">
+    <div class="container">
+      <h1 class="contact-text"> you can contact me via
+        <a class="contact-link" href="mailto:jtmcc93@gmail.com">mail</a>,
+        <a class="contact-link" href="https://www.linkedin.com/in/jonathan-mccarthy" target="_blank">linkedin</a>,
+        <a class="contact-link" href="https://www.instagram.com/jonmccarthy7/" target="_blank">Instagram</a>,
+        <a class="contact-link" href="https://www.facebook.com/jon.mccarthy.12" target="_blank">facebook</a>, or
+        <a class="contact-link" href="https://twitter.com/Jon_McCarthy7" target="_blank">twitter</a>
+        <a href="#back-to-top">
+          <span class="glyphicon glyphicon-chevron-up icons pull-right arrow hvr-bob" aria-hidden="true"></span>
+        </a>
+      </h1>
+    </div>
+  </div>
 
-  </body>
+  <script src="scripts/script.js" charset="utf-8"></script>
+
+</body>
+
 </html>
