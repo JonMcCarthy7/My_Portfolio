@@ -1,15 +1,5 @@
 $(document).ready(function() {
-  $("#trans").on("click", function() {
-    $(this).fadeOut(function() {
-      $(this)
-        .text(
-          $(this).text() === "Herzlich willkommen auf meiner portfolio,"
-            ? "Welcome to my portfolio,"
-            : "Herzlich willkommen auf meiner portfolio,"
-        )
-        .fadeIn();
-    });
-  });
+
 
   function myAge(year, month, date) {
     let d, n;
